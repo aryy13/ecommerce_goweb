@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const SearchBar = ({ onSearch }) => {
+const SearchInput = ({ onSearch }) => {
     const [query, setQuery] =useState('');
 
     const handleInputChange = (e) => {
@@ -40,11 +40,11 @@ const SearchBox = () => {
     return (
         <>
         <container> 
-            <Row className="my-4">
+            <row className="my-4">
                 <col className="d-flex justify-content-center">
-                <SearchBar onSearch={handleSearch} /> 
+                <SearchInput onSearch={handleSearch} /> 
                 </col>
-            </Row>
+            </row>
         </container>
         </>
     );
