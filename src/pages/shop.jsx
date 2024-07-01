@@ -32,10 +32,6 @@ const Shop = () => {
               <NavLink className="nav-link text-white m-2" to="/shop" activeClassName="active">Katalog</NavLink>
               </li>
 
-                <Link to="/Signin">
-                <li className="nav-item text-white m-2">
-                    <button type="button" className="btn btn-sm m-2 btn-outline-light" link to="/login"> Login </button>
-                </li> </Link>
             </ul>
         </div>
         </GradientNavbar>
