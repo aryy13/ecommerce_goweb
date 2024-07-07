@@ -43,8 +43,8 @@ const Home = () => {
         <GradientNavbar className="bg-primary container-md justify-content-center rounded-3"> 
          <div className="row margin-cust-top1  justify-content-center">
       <div className="col-md-12 p-4">
-                <h1 className="text-white text-center fw-bold text-size3"> Selamat Datang di GO <span className="text-size2" >by</span>
-                <span className="text-color1 text-size1">Lunaetic</span> </h1>
+                <h1 className="text-white text-center fw-bold text-size3"> Selamat Datang di sharing <span className="text-size2" >by</span>
+                <span className="text-color1 text-size1">Markincity</span> </h1>
                 <p className=" text-white text-center fw-strong text-size2"> Temukan semua yang kamu inginkan di sini! </p>
             </div>
       
