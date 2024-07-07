@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, NavLink} from 'react-router-dom'; 
-import SearchBox from "../components/Searchbar";
 import styled from "styled-components";
 import { IoIosArrowForward } from 'react-icons/io';
 import { BsPerson } from 'react-icons/bs';
@@ -16,8 +15,8 @@ const Home = () => {
   return(
     <>
  <GradientNavbar className="navbar navbar-expand-lg nav-bg p-2 shadow-sm fixed-top"> 
-            <a className="navbar-brand text-white fw-bold p-2 text-size1" href= "/"> GO <span className="text-size2 p-1" >by</span> 
-            <span className="text-color1 text-size2">Lunaetic</span>
+            <a className="navbar-brand text-white fw-bold p-2 text-size1" href= "/"> Sharing <span className="text-size2 p-1" >by</span> 
+            <span className="text-color1 text-size2">Markincity</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
             aria-controls='navbarNav' aria-expanded="false"
